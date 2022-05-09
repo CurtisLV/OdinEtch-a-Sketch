@@ -1,5 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
 .square {
     height: 75px;
     width: 75px;
     background-color: aquamarine;
+}
+
+.active {
+    background-color: bisque;
 }
