@@ -30,8 +30,8 @@ const promptSquareSize = () => {
         gridSize = prompt('Enter a number please?', 0);
     } while (!isFinite(gridSize));
 
-    if (gridSize > 10) {
-        gridSize = 10;
+    if (gridSize > 100) {
+        gridSize = 100;
     }
 
     container.innerHTML = '';

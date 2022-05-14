@@ -1,4 +1,8 @@
 body {
+    margin: 0;
+    width: 100%;
+
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,18 +17,25 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+
+    max-width: 80%;
+    height: 40rem;
+    gap: 1px;
 }
 
 .row {
     display: flex;
-    gap: 10px;
+    gap: 1px;
     justify-content: center;
+    flex: 1 1 auto;
+    flex-basis: 50px;
 }
 
 .square {
-    height: 75px;
-    width: 75px;
+    display: flex;
+    flex: 1 1 auto;
+    flex-basis: 50px;
+    aspect-ratio: 1/1;
     background-color: aquamarine;
 }
 
